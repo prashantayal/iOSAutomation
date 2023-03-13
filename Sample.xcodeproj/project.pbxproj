@@ -14,12 +14,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		451AC02D29BB5F23004B1260 /* Sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		451AC02D29BB5F23004B1260 /* CAAutomation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CAAutomation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		451AC03029BB5F23004B1260 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		451AC03229BB5F23004B1260 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		451AC03429BB5F23004B1260 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		451AC03729BB5F23004B1260 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		451AC03929BB5F23004B1260 /* Sample.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Sample.entitlements; sourceTree = "<group>"; };
+		451AC03929BB5F23004B1260 /* CAAutomation.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CAAutomation.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,7 +36,7 @@
 		451AC02429BB5F23004B1260 = {
 			isa = PBXGroup;
 			children = (
-				451AC02F29BB5F23004B1260 /* Sample */,
+				451AC02F29BB5F23004B1260 /* CAAutomation */,
 				451AC02E29BB5F23004B1260 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -44,29 +44,29 @@
 		451AC02E29BB5F23004B1260 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				451AC02D29BB5F23004B1260 /* Sample.app */,
+				451AC02D29BB5F23004B1260 /* CAAutomation.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		451AC02F29BB5F23004B1260 /* Sample */ = {
+		451AC02F29BB5F23004B1260 /* CAAutomation */ = {
 			isa = PBXGroup;
 			children = (
 				451AC03029BB5F23004B1260 /* AppDelegate.swift */,
 				451AC03229BB5F23004B1260 /* ViewController.swift */,
 				451AC03429BB5F23004B1260 /* Assets.xcassets */,
 				451AC03629BB5F23004B1260 /* Main.storyboard */,
-				451AC03929BB5F23004B1260 /* Sample.entitlements */,
+				451AC03929BB5F23004B1260 /* CAAutomation.entitlements */,
 			);
-			path = Sample;
+			path = CAAutomation;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		451AC02C29BB5F23004B1260 /* Sample */ = {
+		451AC02C29BB5F23004B1260 /* CAAutomation */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 451AC03C29BB5F23004B1260 /* Build configuration list for PBXNativeTarget "Sample" */;
+			buildConfigurationList = 451AC03C29BB5F23004B1260 /* Build configuration list for PBXNativeTarget "CAAutomation" */;
 			buildPhases = (
 				451AC02929BB5F23004B1260 /* Sources */,
 				451AC02A29BB5F23004B1260 /* Frameworks */,
@@ -76,9 +76,9 @@
 			);
 			dependencies = (
 			);
-			name = Sample;
+			name = CAAutomation;
 			productName = Sample;
-			productReference = 451AC02D29BB5F23004B1260 /* Sample.app */;
+			productReference = 451AC02D29BB5F23004B1260 /* CAAutomation.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -109,7 +109,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				451AC02C29BB5F23004B1260 /* Sample */,
+				451AC02C29BB5F23004B1260 /* CAAutomation */,
 			);
 		};
 /* End PBXProject section */
@@ -268,11 +268,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = Sample/Sample.entitlements;
+				CODE_SIGN_ENTITLEMENTS = CAAutomation/CAAutomation.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = CAAutomation;
 				INFOPLIST_KEY_NSDesktopFolderUsageDescription = "";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INFOPLIST_KEY_NSMainStoryboardFile = Main;
@@ -295,11 +296,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = Sample/Sample.entitlements;
+				CODE_SIGN_ENTITLEMENTS = CAAutomation/CAAutomation.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = CAAutomation;
 				INFOPLIST_KEY_NSDesktopFolderUsageDescription = "";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INFOPLIST_KEY_NSMainStoryboardFile = Main;
@@ -329,7 +331,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		451AC03C29BB5F23004B1260 /* Build configuration list for PBXNativeTarget "Sample" */ = {
+		451AC03C29BB5F23004B1260 /* Build configuration list for PBXNativeTarget "CAAutomation" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				451AC03D29BB5F23004B1260 /* Debug */,

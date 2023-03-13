@@ -79,7 +79,7 @@ class ViewController: NSViewController {
                 // destination button
                 else if sender == btnChooseDest {
                     // provide destination path to textfield
-                    txtDestinationPath.stringValue = path.hasPrefix("/") ? path : (path + "/")
+                    txtDestinationPath.stringValue = path.hasSuffix("/") ? path : (path + "/")
                 }
             }
         } else {
